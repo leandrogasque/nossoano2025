@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa Jornada 2025 | Uma Retrospectiva de Amor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <span class="heart">❤</span>
+            <p>Preparando nossas memórias...</p>
+        </div>
+    </div>
+
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="split-text">Nossa Jornada</h1>
+            <h2 class="year">2025</h2>
+            <p class="subtitle">Um ano de capítulos inesquecíveis ao seu lado.</p>
+            <button id="unlock-btn" class="btn-primary">Destravar Memórias</button>
+        </div>
+    </header>
+
+    <main id="main-content" class="hidden">
+        <div id="music-controls" class="music-controls">
+            <button id="music-toggle" class="btn-music">🔇</button>
+            <audio id="bg-music" loop></audio>
+        </div>
+
+        <section class="intro-text">
+            <p class="scroll-reveal">Cada foto aqui guarda um pedaço do que construímos juntos.</p>
+        </section>
+
+        <div id="timeline" class="timeline">
+            <!-- As fotos serão inseridas aqui dinamicamente -->
+        </div>
+
+        <section class="stats-section scroll-reveal">
+            <h3 class="font-script">Nosso 2025 em Números</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-value">365</span>
+                    <span class="stat-label">Dias de Cumplicidade</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">1</span>
+                    <span class="stat-label">Casamento Inesquecível</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">Milhares</span>
+                    <span class="stat-label">Risadas e Momentos</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-message">
+            <div id="fireworks-container"></div>
+            <div class="envelope-wrapper scroll-reveal">
+                <div id="envelope" class="envelope">
+                    <div class="envelope-top"></div>
+                    <div class="envelope-right"></div>
+                    <div class="envelope-card">
+                        <h3 class="font-script">Para meu eterno amor, Sah...</h3>
+                        <div class="letter-body">
+                            <p>2025 foi o ano mais especial das nossas vidas. O ano em que dissemos o nosso "sim" mais
+                                importante e decidimos unir nossos destinos para sempre.</p>
+                            <p>Obrigado por ser minha esposa, minha parceira de todas as horas e o meu porto seguro. Que
+                                2026 seja apenas a continuação dessa história linda que estamos construindo juntos,
+                                cheia de risadas, conquistas e, acima de tudo, do nosso amor infinito.</p>
+                            <p>Te amo hoje, amanhã e em todos os anos que virão.</p>
+                        </div>
+                        <p class="signature font-script">Com todo o meu coração,<br>Leandro Gasque</p>
+                    </div>
+                </div>
+                <div class="envelope-tap">Clique para abrir ❤️</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Feito com ❤️ para você | 2025-2026</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
