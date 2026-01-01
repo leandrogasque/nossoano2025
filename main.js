@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     let photos = [];
     let musicList = [];
     try {
-        const photoRes = await fetch('./photos.json');
+        const photoRes = await fetch('/photos.json');
         photos = await photoRes.json();
-        const musicRes = await fetch('./music.json');
+        const musicRes = await fetch('/music.json');
         musicList = await musicRes.json();
 
         // Configurar primeira música
