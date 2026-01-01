@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             polaroid.style.transform = `rotate(${randomRotation}deg)`;
 
             polaroid.innerHTML = `
-                <img src="assets/${photo}" alt="Nossa Memória" loading="lazy">
+                <img src="/assets/${photo}" alt="Nossa Memória" loading="lazy">
             `;
 
             timeline.appendChild(polaroid);
